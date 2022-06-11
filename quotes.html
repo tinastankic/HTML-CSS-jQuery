@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+  
+  $(function(){
+    
+    $('.container .slides:gt(0)').hide();
+    setInterval(function(){
+      $('.container :first-child').fadeOut(2000).next('.slides').fadeIn(2000)
+      .end().appendTo('.container');
+  }, 7000);
+    
+  });
+  
+});
+
+</script>
+
+</head>
+
+<body>
+
+<style>
+
+* {
+  font-family: 'Lora', serif;
+  margin: auto;
+  height: 0;
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  font-size: 200%;
+}
+
+body {
+  background-image: url('img/space_.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  background-size:100% 100%;
+}
+
+.container {
+  width: 50%;
+  padding-top: 150px;
+}
+
+</style>
+
+<div class="container">
+  <h4 class="slides"> “Be yourself; everyone else is already taken.” 
+― Oscar Wilde</h4>
+  <h4 class="slides">“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.” 
+― Bernard M. Baruch</h4>
+  <h4 class="slides">“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.” 
+― Ralph Waldo Emerson</h4>
+  <h4 class="slides">"You must be the change you wish to see in the world."
+— Gandhi</h4>
+  <h4 class="slides">“Education is our passport to the future, for tomorrow belongs to the people who prepare for it today.”
+― Malcolm X</h4>
+  <h4 class="slides">“The journey of a thousand miles begins with one step.”
+– Lao Tzu</h4>
+  <h4 class="slides">"I’ve failed over and over and over again in my life and that is why I succeed."
+— Michael Jordan</h4>
+  <h4 class="slides">“It does not matter how slowly you go as long as you do not stop.” 
+– Confucius</h4>
+  <h4 class="slides">“I have no special talent. I am only passionately curious.” 
+– Albert Einstein</h4>
+  <h4 class="slides">“A person who never made a mistake never tried anything new.” 
+– Albert Einstein</h4>
+  <h4 class="slides"> “Whether you think you can or you think you can’t, you’re right.” 
+– Henry Ford</h4>
+  <h4 class="slides">“A winner is a dreamer who never gives up.” 
+– Nelson Mandela</h4>
+</div>
+
+</body>
+
+</html>

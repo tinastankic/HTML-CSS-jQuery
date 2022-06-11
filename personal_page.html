@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("img").animate({
+            left: 500
+        });
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+<style>
+body{
+background-image: url('img/priroda_1.jpg');
+background-attachment:fixed;
+background-size:cover;
+background-size:100% 100%;
+}
+
+p{
+color:DarkRed;
+font-size:20px;
+font-style:italic;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b30000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img{
+    position: relative;
+}
+	
+.button {
+  background-color: IndianRed;
+  border: none;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%
+}
+
+</style>
+
+
+<img src="img/me.jpg" width="350" height="350" alt="me">
+<br>
+<button class="button"><b><i>Start Animation</i></b></button>
+
+<h1 style="font-size:45px;color:IndianRed;"><i>About me</i></h1>
+
+<p>
+My name is Kristina Stankić. I'm 27 years old.<br>
+I finished primary school ,,Momčilo Živojinović'', school for elementary music education ,,Stevan Hristić'' and high school in Mladenovac.<br>
+After that I graduated from the Faculty of Mathematics in Belgrade.<br>
+I have a younger brother and I am a proud aunt.<br>
+Spending time with family and friends, watching movies and reading books are just some of the things that makes me happy.
+</p>
+
+<ul style="font-size:20px;list-style-type:square;">
+<li><a href="home.html" target="_blank"><i>Home</i></a></li>
+<li><a href="timetable.html" target="_blank"><i>Schedule</i></a></li>
+</ul>
+
+
+</body>
+
+</html>
